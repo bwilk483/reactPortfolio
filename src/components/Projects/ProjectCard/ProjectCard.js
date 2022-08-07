@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 const ProjectCard = (props) => {
   return (
@@ -9,12 +8,24 @@ const ProjectCard = (props) => {
       <div className="pro-details">
         <p>{props.description}</p>
         <div className="pro-btn">
-          <NavLink to="url.com" className="btn">
+          <a
+            href={props.view}
+            className="btn"
+            target="_blink"
+            rel="noopener"
+            aria-label="Github"
+          >
             View
-          </NavLink>
-          <NavLink to="url.com" className="btn">
+          </a>
+          <a
+            href={props.source}
+            className="btn"
+            target="_blink"
+            rel="noopener"
+            aria-label="Github"
+          >
             Source
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>

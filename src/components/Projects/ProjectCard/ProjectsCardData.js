@@ -24,11 +24,11 @@ const projectCardData = [
   },
   {
     imgsrc: project3,
-    title: "Project one title",
+    title: "React Portfolio",
     description:
-      "lots of text here about the project. I don't know what to put so I am just putting random text right now and will replace it with better info later. this is a vary hard project but im loving react a lot more then the other platforms",
-    view: "https://www.youtube.com/watch?v=0h2b4ftbZcU",
-    source: "https://www.youtube.com/watch?v=0h2b4ftbZcU",
+      "This portfolio is made with react, javascript and basic css no frameworks. I chose to use basic css to challenge myself to understand css more with out a framework to help me with the layout. ",
+    view: "",
+    source: "https://github.com/bwilk483/reactPortfolio",
   },
   //   {
   //     imgsrc: project4,
