@@ -27,7 +27,7 @@ const projectCardData = [
     title: "React Portfolio",
     description:
       "This portfolio is made with react, javascript and basic css no frameworks. I chose to use basic css to challenge myself to understand css more with out a framework to help me with the layout. ",
-    view: "",
+    view: "https://gentle-reef-35366.herokuapp.com/",
     source: "https://github.com/bwilk483/reactPortfolio",
   },
   //   {
