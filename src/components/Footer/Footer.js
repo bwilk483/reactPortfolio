@@ -41,15 +41,20 @@ const Footer = () => {
             i need to add info in here about me that will tell them a little bit
             about myself
           </p>
-          <FaFacebook
-            size={20}
-            style={{ color: "#fff", marginRight: "2rem" }}
-          />
-          <FaTwitter size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-          <FaLinkedin
-            size={20}
-            style={{ color: "#fff", marginRight: "2rem" }}
-          />
+          <div className="socials">
+            <FaFacebook
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaTwitter
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaLinkedin
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+          </div>
         </div>
       </div>
     </div>

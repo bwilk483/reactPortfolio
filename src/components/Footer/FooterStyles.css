@@ -19,7 +19,9 @@
   padding: 1rem;
 }
 
-.location {
+.location,
+.phone,
+.email {
   display: flex;
   margin-bottom: 0.8rem;
 }
