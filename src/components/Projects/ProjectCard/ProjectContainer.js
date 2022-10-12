@@ -8,19 +8,21 @@ const projectContainer = () => {
   return (
     <div className="project">
       <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
-        {ProjectCardData.map((val, ind) => {
-          return (
-            <ProjectCard
-              key={ind}
-              imgsrc={val.imgsrc}
-              title={val.title}
-              description={val.description}
-              view={val.view}
-              source={val.source}
-            />
-          );
-        })}
+      <div className="project-card-info">
+        <div className="project-container">
+          {ProjectCardData.map((val, ind) => {
+            return (
+              <ProjectCard
+                key={ind}
+                imgsrc={val.imgsrc}
+                title={val.title}
+                description={val.description}
+                view={val.view}
+                source={val.source}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
