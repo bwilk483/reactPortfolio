@@ -36,13 +36,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>Info Text in Here</h4>
+          <h4>Thank You</h4>
           <p>
-            i need to add info in here about me that will tell them a little bit
-            about myself
+            If you have any questions or comments please don't hesitate to call
+            or message at anytime thank you for taking a look at my portfolio
           </p>
           <div className="socials">
             <FaFacebook
+              href="https://www.facebook.com"
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
             />
