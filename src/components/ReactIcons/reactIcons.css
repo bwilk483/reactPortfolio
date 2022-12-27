@@ -1,0 +1,13 @@
+.reactIconsContainer {
+  margin-top: 5rem;
+}
+
+.reactIconsUL {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4rem;
+  justify-items: center;
+}
+
+.reactIconsLI {
+}
