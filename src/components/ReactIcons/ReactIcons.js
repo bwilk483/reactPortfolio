@@ -32,7 +32,11 @@ const ReactIcons = () => {
         <li className="reactIconsLI">
           <FaHtml5
             size={size}
-            style={{ color: "#fff", marginRight: { marginRight } }}
+            style={{
+              color: "#fff",
+              hover: "HTML 5",
+              marginRight: { marginRight },
+            }}
           />
         </li>
         <li>
