@@ -7,7 +7,7 @@ import Navbar from "../../FSCComponents/FSCNavb/FSCNavb";
 
 const FSCHome = () => {
   return (
-    <div>
+    <div className="FSCHome">
       <Navbar />
 
       {/* <Header />

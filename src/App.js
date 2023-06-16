@@ -40,7 +40,7 @@ function App() {
         {/* React Blog Routes End */}
 
         {/* React FourStates Construction Routes Blow */}
-        <Route path="/Fourstatesconstruction" element={<FSCHome />}></Route>
+        <Route path="/Fourstatescontractors" element={<FSCHome />}></Route>
         {/* React FourStates Construction Routes End */}
 
         {/* React Retail Routes Blow */}
