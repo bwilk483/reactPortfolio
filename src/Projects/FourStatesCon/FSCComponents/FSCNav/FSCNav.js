@@ -1,5 +1,5 @@
 import React from "react";
-import "./RbNavBar.css";
+import "./FSCNav.css";
 
 import { Link } from "react-router-dom";
 
@@ -11,11 +11,11 @@ import {
   FaSearch,
 } from "react-icons/fa";
 
-const dev = "../../img/me.jpg";
+const dev = "img/me.jpg";
 
-const user = true;
+const user = false;
 
-const NavBar = () => {
+const FSCNav = () => {
   return (
     <div className="navBar">
       <div className="navLeft">
@@ -40,14 +40,22 @@ const NavBar = () => {
       <div className="navCenter">
         <ul className="navList">
           <li className="navListItems">
-            <Link to="/">HOME</Link>
+            <Link className="navLink" to="/fourstatesconstruction">
+              HOME
+            </Link>
           </li>
-          <li className="navListItems">ABOUT</li>
-          <li className="navListItems">CONTACT</li>
           <li className="navListItems">
-            <Link to="/write">WRITE</Link>
+            <Link className="navLink" to="/fourstatesconstruction/write">
+              WRITE
+            </Link>
           </li>
-          <li className="navListItems">{user && "LOGOUT"}</li>
+          <li className="navListItems">
+            <Link className="navLink" to="/fourstatesconstruction/contact">
+              CONTACT
+            </Link>
+          </li>
+
+          <li className="navLink">{user && "LOGOUT"}</li>
         </ul>
       </div>
       <div className="navRight">
@@ -75,4 +83,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default FSCNav;
